@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6184A34C16CAE06F001D6814 /* libtouchzipkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6184C33A16C9EFF2001D3CA7 /* libtouchzipkit.a */; };
+		6184C24C16C9DA49001D3CA7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6184C24B16C9DA49001D3CA7 /* libz.dylib */; };
+		6186E61C1632F80800E95B5B /* MessagingToolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6186E61B1632F80800E95B5B /* MessagingToolModel.m */; };
+		618D0352163391CC00EB3F5E /* MessagingToolServerFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618D0351163391CC00EB3F5E /* MessagingToolServerFileListViewController.m */; };
+		CE8BF3F9160A816600F4A67D /* MessagingToolFileContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8BF3F8160A816600F4A67D /* MessagingToolFileContentViewController.m */; };
+		CE8F271B160A11CE000C90AE /* MessagingToolTableViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8F271A160A11CE000C90AE /* MessagingToolTableViewControllerViewController.m */; };
+		CE9206A115F68BCD00B15A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9206A015F68BCD00B15A04 /* UIKit.framework */; };
+		CE9206A315F68BCD00B15A04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9206A215F68BCD00B15A04 /* Foundation.framework */; };
+		CE9206A515F68BCD00B15A04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9206A415F68BCD00B15A04 /* CoreGraphics.framework */; };
+		CE9206AB15F68BCD00B15A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9206A915F68BCD00B15A04 /* InfoPlist.strings */; };
+		CE9206AD15F68BCD00B15A04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9206AC15F68BCD00B15A04 /* main.m */; };
+		CE9206B115F68BCD00B15A04 /* MessagingToolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9206B015F68BCD00B15A04 /* MessagingToolAppDelegate.m */; };
+		CE9206B415F68BCD00B15A04 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9206B215F68BCD00B15A04 /* MainStoryboard.storyboard */; };
+		CE9206B715F68BCD00B15A04 /* MessagingToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9206B615F68BCD00B15A04 /* MessagingToolViewController.m */; };
+		CE9206C215F68F8A00B15A04 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9206C115F68F8A00B15A04 /* GameKit.framework */; };
+		CE96269C16263F730027044A /* MessagingToolPeerSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96269B16263F730027044A /* MessagingToolPeerSelectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6184A35216CAE3C7001D6814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9B9CED109F6769003E3F8B;
+			remoteInfo = touchzipkit;
+		};
+		6184C33516C9EFF2001D3CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = ZipKit;
+		};
+		6184C33716C9EFF2001D3CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB9B9CB6109F665C003E3F8B;
+			remoteInfo = zipkit;
+		};
+		6184C33916C9EFF2001D3CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB9B9CEE109F6769003E3F8B;
+			remoteInfo = touchzipkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6184C24B16C9DA49001D3CA7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZipKit.xcodeproj; path = "kolpanic-zipkit-531cd75fef32/ZipKit.xcodeproj"; sourceTree = "<group>"; };
+		6186E61A1632F80800E95B5B /* MessagingToolModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingToolModel.h; sourceTree = "<group>"; };
+		6186E61B1632F80800E95B5B /* MessagingToolModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagingToolModel.m; sourceTree = "<group>"; };
+		618D0350163391CC00EB3F5E /* MessagingToolServerFileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingToolServerFileListViewController.h; sourceTree = "<group>"; };
+		618D0351163391CC00EB3F5E /* MessagingToolServerFileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagingToolServerFileListViewController.m; sourceTree = "<group>"; };
+		CE8BF3F7160A816600F4A67D /* MessagingToolFileContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingToolFileContentViewController.h; sourceTree = "<group>"; };
+		CE8BF3F8160A816600F4A67D /* MessagingToolFileContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagingToolFileContentViewController.m; sourceTree = "<group>"; };
+		CE8F2719160A11CE000C90AE /* MessagingToolTableViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingToolTableViewControllerViewController.h; sourceTree = "<group>"; };
+		CE8F271A160A11CE000C90AE /* MessagingToolTableViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagingToolTableViewControllerViewController.m; sourceTree = "<group>"; };
+		CE92069C15F68BCD00B15A04 /* GBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9206A015F68BCD00B15A04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE9206A215F68BCD00B15A04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE9206A415F68BCD00B15A04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE9206A815F68BCD00B15A04 /* GBluetooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GBluetooth-Info.plist"; sourceTree = "<group>"; };
+		CE9206AA15F68BCD00B15A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE9206AC15F68BCD00B15A04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9206AE15F68BCD00B15A04 /* GBluetooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GBluetooth-Prefix.pch"; sourceTree = "<group>"; };
+		CE9206AF15F68BCD00B15A04 /* MessagingToolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingToolAppDelegate.h; sourceTree = "<group>"; };
+		CE9206B015F68BCD00B15A04 /* MessagingToolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagingToolAppDelegate.m; sourceTree = "<group>"; };
+		CE9206B315F68BCD00B15A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE9206B515F68BCD00B15A04 /* MessagingToolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingToolViewController.h; sourceTree = "<group>"; };
+		CE9206B615F68BCD00B15A04 /* MessagingToolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagingToolViewController.m; sourceTree = "<group>"; };
+		CE9206C115F68F8A00B15A04 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		CE96269A16263F730027044A /* MessagingToolPeerSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingToolPeerSelectionViewController.h; sourceTree = "<group>"; };
+		CE96269B16263F730027044A /* MessagingToolPeerSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagingToolPeerSelectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE92069915F68BCD00B15A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6184A34C16CAE06F001D6814 /* libtouchzipkit.a in Frameworks */,
+				6184C24C16C9DA49001D3CA7 /* libz.dylib in Frameworks */,
+				CE9206C215F68F8A00B15A04 /* GameKit.framework in Frameworks */,
+				CE9206A115F68BCD00B15A04 /* UIKit.framework in Frameworks */,
+				CE9206A315F68BCD00B15A04 /* Foundation.framework in Frameworks */,
+				CE9206A515F68BCD00B15A04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6184C33016C9EFF2001D3CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6184C33616C9EFF2001D3CA7 /* ZipKit.framework */,
+				6184C33816C9EFF2001D3CA7 /* libzipkit.a */,
+				6184C33A16C9EFF2001D3CA7 /* libtouchzipkit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE92069115F68BCD00B15A04 = {
+			isa = PBXGroup;
+			children = (
+				CE9206A615F68BCD00B15A04 /* GBluetooth */,
+				CE92069F15F68BCD00B15A04 /* Frameworks */,
+				CE92069D15F68BCD00B15A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE92069D15F68BCD00B15A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE92069C15F68BCD00B15A04 /* GBluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE92069F15F68BCD00B15A04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */,
+				6184C24B16C9DA49001D3CA7 /* libz.dylib */,
+				CE9206C115F68F8A00B15A04 /* GameKit.framework */,
+				CE9206A015F68BCD00B15A04 /* UIKit.framework */,
+				CE9206A215F68BCD00B15A04 /* Foundation.framework */,
+				CE9206A415F68BCD00B15A04 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9206A615F68BCD00B15A04 /* GBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				6186E61B1632F80800E95B5B /* MessagingToolModel.m */,
+				6186E61A1632F80800E95B5B /* MessagingToolModel.h */,
+				CE9206AF15F68BCD00B15A04 /* MessagingToolAppDelegate.h */,
+				CE9206B015F68BCD00B15A04 /* MessagingToolAppDelegate.m */,
+				CE9206B215F68BCD00B15A04 /* MainStoryboard.storyboard */,
+				CE96269A16263F730027044A /* MessagingToolPeerSelectionViewController.h */,
+				CE96269B16263F730027044A /* MessagingToolPeerSelectionViewController.m */,
+				CE8BF3F7160A816600F4A67D /* MessagingToolFileContentViewController.h */,
+				CE8BF3F8160A816600F4A67D /* MessagingToolFileContentViewController.m */,
+				CE9206B515F68BCD00B15A04 /* MessagingToolViewController.h */,
+				CE9206B615F68BCD00B15A04 /* MessagingToolViewController.m */,
+				618D0350163391CC00EB3F5E /* MessagingToolServerFileListViewController.h */,
+				618D0351163391CC00EB3F5E /* MessagingToolServerFileListViewController.m */,
+				CE8F2719160A11CE000C90AE /* MessagingToolTableViewControllerViewController.h */,
+				CE8F271A160A11CE000C90AE /* MessagingToolTableViewControllerViewController.m */,
+				CE9206A715F68BCD00B15A04 /* Supporting Files */,
+			);
+			path = GBluetooth;
+			sourceTree = "<group>";
+		};
+		CE9206A715F68BCD00B15A04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9206A815F68BCD00B15A04 /* GBluetooth-Info.plist */,
+				CE9206A915F68BCD00B15A04 /* InfoPlist.strings */,
+				CE9206AC15F68BCD00B15A04 /* main.m */,
+				CE9206AE15F68BCD00B15A04 /* GBluetooth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE92069B15F68BCD00B15A04 /* GBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9206BA15F68BCD00B15A04 /* Build configuration list for PBXNativeTarget "GBluetooth" */;
+			buildPhases = (
+				CE92069815F68BCD00B15A04 /* Sources */,
+				CE92069915F68BCD00B15A04 /* Frameworks */,
+				CE92069A15F68BCD00B15A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6184A35316CAE3C7001D6814 /* PBXTargetDependency */,
+			);
+			name = GBluetooth;
+			productName = GBluetooth;
+			productReference = CE92069C15F68BCD00B15A04 /* GBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE92069315F68BCD00B15A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MessagingTool;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE92069615F68BCD00B15A04 /* Build configuration list for PBXProject "GBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = CE92069115F68BCD00B15A04;
+			productRefGroup = CE92069D15F68BCD00B15A04 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6184C33016C9EFF2001D3CA7 /* Products */;
+					ProjectRef = 6184C32F16C9EFF2001D3CA7 /* ZipKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE92069B15F68BCD00B15A04 /* GBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6184C33616C9EFF2001D3CA7 /* ZipKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZipKit.framework;
+			remoteRef = 6184C33516C9EFF2001D3CA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6184C33816C9EFF2001D3CA7 /* libzipkit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzipkit.a;
+			remoteRef = 6184C33716C9EFF2001D3CA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6184C33A16C9EFF2001D3CA7 /* libtouchzipkit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtouchzipkit.a;
+			remoteRef = 6184C33916C9EFF2001D3CA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE92069A15F68BCD00B15A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9206AB15F68BCD00B15A04 /* InfoPlist.strings in Resources */,
+				CE9206B415F68BCD00B15A04 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE92069815F68BCD00B15A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9206AD15F68BCD00B15A04 /* main.m in Sources */,
+				CE9206B115F68BCD00B15A04 /* MessagingToolAppDelegate.m in Sources */,
+				CE9206B715F68BCD00B15A04 /* MessagingToolViewController.m in Sources */,
+				CE8F271B160A11CE000C90AE /* MessagingToolTableViewControllerViewController.m in Sources */,
+				CE8BF3F9160A816600F4A67D /* MessagingToolFileContentViewController.m in Sources */,
+				CE96269C16263F730027044A /* MessagingToolPeerSelectionViewController.m in Sources */,
+				6186E61C1632F80800E95B5B /* MessagingToolModel.m in Sources */,
+				618D0352163391CC00EB3F5E /* MessagingToolServerFileListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6184A35316CAE3C7001D6814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = touchzipkit;
+			targetProxy = 6184A35216CAE3C7001D6814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE9206A915F68BCD00B15A04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9206AA15F68BCD00B15A04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE9206B215F68BCD00B15A04 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9206B315F68BCD00B15A04 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9206B815F68BCD00B15A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		CE9206B915F68BCD00B15A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		CE9206BB15F68BCD00B15A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GBluetooth/GBluetooth-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"”$(TARGET_BUILD_DIR)/usr/local/lib/include”",
+					"”$(OBJROOT)/UninstalledProducts/include”",
+				);
+				INFOPLIST_FILE = "GBluetooth/GBluetooth-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				ORDER_FILE = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE9206BC15F68BCD00B15A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GBluetooth/GBluetooth-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"”$(TARGET_BUILD_DIR)/usr/local/lib/include”",
+					"”$(OBJROOT)/UninstalledProducts/include”",
+				);
+				INFOPLIST_FILE = "GBluetooth/GBluetooth-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				ORDER_FILE = "";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE92069615F68BCD00B15A04 /* Build configuration list for PBXProject "GBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9206B815F68BCD00B15A04 /* Debug */,
+				CE9206B915F68BCD00B15A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9206BA15F68BCD00B15A04 /* Build configuration list for PBXNativeTarget "GBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9206BB15F68BCD00B15A04 /* Debug */,
+				CE9206BC15F68BCD00B15A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE92069315F68BCD00B15A04 /* Project object */;
+}
